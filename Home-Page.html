@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div id="Main_Container">
+        <form>
+            <div id="Givens">
+                <label id="Get_Id" for="Get">Get</label>
+                <select name="Get" id="Get">
+                    <option id="Resistance" value="R">Resistance</option>
+                    <option id="Voltage" value="V">Voltage</option>
+                    <option id="Current" value="C">Current</option>
+                    <option id="Power" value="P">Power</option>
+                </select>
+        
+                <label for="Calculate">Calculated by</label>
+                <select name="Calculate" id="Calculate">
+                    <div id="div1"><option id="voltandcurr" value="R">Voltage and Current </option></div>
+                    <div id="div2"><option id="Voltandpow" value="V">Voltage and Power </option></div>
+                    <div id="div3"><option id="powandcurr" value="C">Power and Current</option></div>
+                </select>
+            </div>
+            <div id="Inner_Container">
+                <form >
+    
+                    <label  id="First_Given" for="First_Input">Voltage</label>
+                    <input type="text" required name="First_Input" id="Input1">
+            
+                    <label  id="Second_Given" for="Second_Given">Current</label>
+                    <input type="text" required name="Second_Input" id="Input2">
+                </form>
+            </div>
+
+            <p id="Result">Result = ...</p>
+
+            <button id="Reset">Reset</button>
+        </form>
+    </div>
+    <script src="Functionality.js"></script>
+</body>
+</html>

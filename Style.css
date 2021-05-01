@@ -1,0 +1,20 @@
+#Main_Container{
+    border: 2px;
+    border-style: solid;
+    margin: 10px;
+    size:600px;
+}
+#Inner_Container{
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-left: 25px;
+    margin-left: 400px;
+}
+#Givens{
+    margin-left: 450px;
+    padding-top: 50px;
+}
+#Result
+{
+    width:100px;
+}
