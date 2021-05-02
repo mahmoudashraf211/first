@@ -7,12 +7,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="Style.css">
 </head>
-<body>
+<body id="body">
     <div id="Main_Container">
-        <form>
+        <form name="Form1"> 
             <div id="Givens">
                 <label id="Get_Id" for="Get">Get</label>
-                <select name="Get" id="Get">
+                <select name="Get_Menu" id="Get">
                     <option id="Resistance" value="R">Resistance</option>
                     <option id="Voltage" value="V">Voltage</option>
                     <option id="Current" value="C">Current</option>
@@ -20,7 +20,7 @@
                 </select>
         
                 <label for="Calculate">Calculated by</label>
-                <select name="Calculate" id="Calculate">
+                <select name="Calculate" id="Calculateid">
                     <div id="div1"><option id="voltandcurr" value="R">Voltage and Current </option></div>
                     <div id="div2"><option id="Voltandpow" value="V">Voltage and Power </option></div>
                     <div id="div3"><option id="powandcurr" value="C">Power and Current</option></div>
