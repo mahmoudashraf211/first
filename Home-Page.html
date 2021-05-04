@@ -13,10 +13,10 @@
             <div id="Givens">
                 <label id="Get_Id" for="Get">Get</label>
                 <select name="Get_Menu" id="Get">
-                    <option id="Resistance" value="R">Resistance</option>
-                    <option id="Voltage" value="V">Voltage</option>
-                    <option id="Current" value="C">Current</option>
-                    <option id="Power" value="P">Power</option>
+                    <option id="Resistance" value="Resistance">Resistance</option>
+                    <option id="Voltage" value="Voltage">Voltage</option>
+                    <option id="Current" value="Current">Current</option>
+                    <option id="Power" value="Power">Power</option>
                 </select>
         
                 <label for="Calculate">Calculated by</label>
@@ -30,10 +30,10 @@
                 <form >
     
                     <label  id="First_Given" for="First_Input">Voltage</label>
-                    <input type="text" required name="First_Input" id="Input1">
+                    <input type="text" name="First_Input" id="Input1" >
             
                     <label  id="Second_Given" for="Second_Given">Current</label>
-                    <input type="text" required name="Second_Input" id="Input2">
+                    <input type="text"  name="Second_Input" id="Input2" >
                 </form>
             </div>
 
@@ -42,6 +42,16 @@
             <button id="Reset">Reset</button>
         </form>
     </div>
+    <form action="">
+        <select name="Colors" id="Colors">
+            <option value="red">red</option>
+            <option value="yellow">yellow</option>
+            <option value="green">green</option>
+            <option value="blue">blue</option>
+
+        </select>
+
+    </form>
     <script src="Functionality.js"></script>
 </body>
 </html>
